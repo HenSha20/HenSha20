@@ -1,0 +1,113 @@
+/*
+*
+*
+* Title : New Shop From Henri
+* Author : Henri Shaqiri
+* Date : 09.05.202
+*
+*/
+
+
+
+/****************** General Styling ********************/
+
+
+body {
+	margin: 0;
+}
+
+/* Navigation */
+nav {
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav img{
+	height: 150px;
+	border-radius: 50px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav ul li a{
+	margin: 10px;
+	padding: 20px;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 10px;
+}
+
+nav ul li a:hover {
+background-color: #c4c1b7;
+color: white;
+}
+
+/* Header */
+header {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url();
+	background-size: cover;
+	background-position: center;
+}
+
+
+section {
+	padding: 300px;
+}
+
+#section1 {
+	padding: 20px;
+}
+
+
+#section1 {
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 14%, rgba(0,0,0,1) 48%, rgba(0,0,0,1) 83%, rgba(0,0,0,1) 100%);
+color: white;
+}
+
+#section2 {
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,209,209,1) 14%, rgba(226,226,226,1) 48%, rgba(209,209,209,1) 83%, rgba(255,255,255,1) 100%);
+}
+#section3 {
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,209,209,1) 14%, rgba(226,226,226,1) 48%, rgba(209,209,209,1) 83%, rgba(255,255,255,1) 100%);
+}
+
+#section5 {
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,209,209,1) 14%, rgba(226,226,226,1) 48%, rgba(209,209,209,1) 83%, rgba(255,255,255,1) 100%);
+}
+#section4{
+	background-color: black;
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+	
+
+
+.henri {
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.men {
+	height: 200px;
+
+	justify-content: space-between;
+	align-items: center;
+	
+}
